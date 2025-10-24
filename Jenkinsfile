@@ -11,7 +11,6 @@ pipeline {
             }
             steps {
                 sh '''
-                    sleep 30
                     ls -la
                     node --version
                     npm --version
